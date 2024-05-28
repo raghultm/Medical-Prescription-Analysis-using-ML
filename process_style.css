@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #565353;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-top: 0;
+}
+.patient-info {
+    margin-top: 10px;
+}
+.info-row {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.label {
+    font-weight: bold;
+    width: 150px;
+}
+.value {
+    flex: 1;
+    padding-left: 10px;
+}
+.no-patient {
+    font-family:AbrilFatface;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-style: oblique;
+}
+.error {
+    font-family:AbrilFatface;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-style: oblique;
+}
+

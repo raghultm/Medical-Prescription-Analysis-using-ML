@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Doctor Prescription Analysis</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+   <script src=scan.js></script>
+   <link rel="icon" href="logo.jpg" type="image/x-icon">
+   
+</head>
+<body>
+   <?php include 'navbar.html'; ?>
+   <style>
+      body {
+         background-image: url('bg1.jpg');
+         font-family:AbrilFatface;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+      }
+   </style>
+   <h1 style="color: black;">Welcome to Medical <br>Prescription Analysis</h1>
+   <div class="index">
+   <button onclick="goToPatientDetailsPage()">Scan Prescription</button><br>
+   <br>
+   <button onclick="goToAnalysisPage()">Find Patient</button>
+
+   </div>
+   
+   <script>
+      function goToAnalysisPage() {
+         window.location.href = "analysis.php";
+      }
+
+      function goToPatientDetailsPage() {
+         window.location.href = "patient_details.php";
+      }
+   </script>
+</body>
+</html>
